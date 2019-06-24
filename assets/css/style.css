@@ -22,6 +22,24 @@ body {
 #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
+  }
+  
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
 /* header */
@@ -51,6 +69,8 @@ body {
     background: #4aaaa5;
 }
 
+/* Nav section */
+
 nav {
     float: right;
     margin-top: 25px;
@@ -65,6 +85,9 @@ nav a {
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
+
+
+/* Porfolio section */
 
 .workExample {
     position: relative;
@@ -98,7 +121,7 @@ nav a {
     border-bottom: 0;
 }
 
-
+/* footer section */
 
 footer {
     padding: 30px 0;
