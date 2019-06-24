@@ -1,0 +1,18 @@
+body {
+    width: 960px;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+  }  
+
+#myName {
+    background: #4aaaa5;   
+}
+
+.navs {
+    text-align: right;
+}
