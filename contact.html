@@ -23,23 +23,28 @@
 
     <div id="main-container" class="container">
         <section class="main-section">
+            <h1>Contact</h1>
 
-            <form>
-                <p>
-                    Name: <br>
-                    <input type="text" name="yourName" value=""><br>
-                    
-                    Email: <br>
-                    <input type="text" name="yourEmail" value=""><br>
-                
-                    Message:<br>
-                    <textarea name="yourMessage" rows="10" cols="48"></textarea><br>
-                    
-                    <input type="submit" value="Submit">
+            <form id="contact-form">
+                <ul>
+                    <li>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" name="yourName" placeholder="John Smith" required="required">
+                    </li>
 
-                </p>
+                    <li>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="yourEmail" placeholder="example@gmail.com" required="required">
+                    </li>
 
+                    <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="yourMessage" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
             </form>
+            
         </section>
     </div>
 
