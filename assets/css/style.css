@@ -71,9 +71,9 @@ h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #ffffff;
     text-align: center;
     text-decoration: none;
+    color: #ffffff;
     background: #4aaaa5;
 }
 
@@ -206,4 +206,19 @@ input[type=submit] {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+}
+
+#phone {
+    position: relative;
+    float: left;
+}
+
+#numbers {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+#gitInfo {
+    clear: both;
 }
